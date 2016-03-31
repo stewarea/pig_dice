@@ -3,38 +3,47 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/jquery-1.12.1.js"></script>
     <script src="js/scripts.js"></script>
   <title>Pig Dice</title>
   </head>
   <body>
-    <div class="container">
-      <h1>PIG DICE</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container">
+          <p>PIG DICE</p>
+
+        <div id="player1">
+          <h1>Player 1</h1>
+          <div id="rollbutton1">
+            <button type="submit" class="btn">Roll the die!</button>
+        </div><br />
+          <div id="holdbutton1">
+            <button type="submit" class="btn">Press if you want to hold.</button>
+          </div>
+          <div id="result1">
+              <h2>Your score is: <span id="score1"></span></h1>
+              <h2>Total score is: <span id="Total1"></span></h2>
+          </div><br />
+        </div>
+        <div id="player2">
+          <h1>Player 2</h1>
+          <div id="rollbutton2">
+               <button type="submit" class="btn">Roll the die!</button>
+          </div><br />
+          <div id="holdbutton2">
+               <button type="submit" class="btn">Press if you want to hold.</button>
+          </div>
+          <div id="result2">
+             <h2>Your score is: <span id="score2"></span></h1>
+             <h2>Total score is: <span id="Total2"></span></h2>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class ="col-md-6">
       <div id="thisroll"></div>
-      <h2>Player 1</h2>
-    <div id="rollbutton1">
-      <button type="submit" class="btn">Roll the die!</button>
-  </div><br />
-    <div id="holdbutton1">
-      <button type="submit" class="btn">Press if you want to hold.</button>
     </div>
-    <div id="result1">
-        <h2>Your score is: <span id="score1"></span></h1>
-        <h2>Total score is: <span id="Total1"></span></h2>
-    </div><br />
-
-    <h2>Player 2</h2>
-    <div id="rollbutton2">
-         <button type="submit" class="btn">Roll the die!</button>
-    </div><br />
-    <div id="holdbutton2">
-         <button type="submit" class="btn">Press if you want to hold.</button>
-    </div>
-    <div id="result2">
-       <h2>Your score is: <span id="score2"></span></h1>
-       <h2>Total score is: <span id="Total2"></span></h2>
-   </div>
   </div>
-
   </body>
 </html>

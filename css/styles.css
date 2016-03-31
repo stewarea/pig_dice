@@ -1,0 +1,18 @@
+body {
+  background-color: #99ccff;
+}
+
+#thisroll {
+  padding-top: 150px;
+  font-size: 700%;
+
+}
+
+.container p {
+  padding-left: 350px;
+  font-size: 300%
+}
+
+#player2 {
+  display: none;
+}
